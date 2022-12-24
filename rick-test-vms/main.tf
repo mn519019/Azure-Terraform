@@ -106,7 +106,7 @@ resource "azurerm_linux_virtual_machine" "rick_vm" {
 
   admin_ssh_key {
     username   = var.admin_user
-    public_key = file("~/.ssh/rick-vm.pub")
+    public_key = file("~/.ssh/example.pub")
   }
 
   os_disk {
